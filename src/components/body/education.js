@@ -1,5 +1,3 @@
-import { Component } from 'react'
-
 export const Education = (props) => {
     const { onInput, value, id, onDelete } = props
     return (
