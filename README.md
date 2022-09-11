@@ -8,10 +8,14 @@ well as the state manipulation.
 
 # Tech stack
 - React
-- Webpack
+
+# Installation
+Fork the repository, clone on your local machine, and run
+`npm install`
 
 # How to use?
-[Live Github.io version](#)
+- `npm run start` on your local machine
+- [Live Github.io version](#)
 
 
 
