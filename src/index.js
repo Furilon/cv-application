@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
 
-import Body from './components/body/main-body'
-import Header from './components/header'
-import Footer from './components/footer'
+import Body from './components/body/main-body';
+import Header from './components/header';
+import Footer from './components/footer';
+
+import './index.css';
 
 const App = () => {
     return (
@@ -15,12 +17,12 @@ const App = () => {
             </div>
             <Footer />
         </div>
-    )
-}
+    );
+};
 
 ReactDOM.render(
     <React.StrictMode>
         <App />
     </React.StrictMode>,
     document.getElementById('root')
-)
+);
