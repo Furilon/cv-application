@@ -1,5 +1,5 @@
 export default function Personal(props) {
-    const onInput = props.onInput
+    const onInput = props.onInput;
     return (
         <div className="personal">
             <h3 className="section-title">Personal Information</h3>
@@ -39,12 +39,11 @@ export default function Personal(props) {
                 placeholder="Email"
                 id="email"
             />
-            <input
+            <textarea
                 onChange={onInput}
-                type="textArea"
                 placeholder="Description"
                 id="description"
             />
         </div>
-    )
+    );
 }

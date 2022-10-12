@@ -104,10 +104,8 @@ export default function Body(props) {
     return (
         <>
             <div id="filling-section">
-                <div id="personal-section">
-                    <Personal onInput={onInput} />
-                </div>
-                <div id="experience-section">
+                <Personal onInput={onInput} />
+                <div id="experience">
                     <ExperienceList
                         onInput={onInput}
                         onAdd={addExperience}
@@ -115,7 +113,7 @@ export default function Body(props) {
                         items={experience}
                     />
                 </div>
-                <div id="education-section">
+                <div id="education">
                     <EducationList
                         onInput={onInput}
                         onAdd={addEducation}
@@ -124,13 +122,11 @@ export default function Body(props) {
                     />
                 </div>
             </div>
-            <div id="resume-section">
-                <Resume
-                    personal={personal}
-                    experience={experience}
-                    education={education}
-                />
-            </div>
+            <Resume
+                personal={personal}
+                experience={experience}
+                education={education}
+            />
         </>
     );
 }
