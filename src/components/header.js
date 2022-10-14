@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-        <div id="header">
+        <header>
             <span>CV CREATOR</span>
-        </div>
-    )
+        </header>
+    );
 }

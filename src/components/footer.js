@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <div id="footer">
+        <footer>
             <span>Copyright 2022 Mykyta Medvediev</span>
-        </div>
-    )
+        </footer>
+    );
 }
