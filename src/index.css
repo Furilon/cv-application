@@ -83,3 +83,23 @@ button:hover {
               5px 0px 10px gray,
               -5px -5px 10px gray;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
